@@ -6,7 +6,10 @@ Video Demo:  https://s11.gifyu.com/images/SW2R8.gif
 
 # Usage
 > `import {RichTextInput} from '@tonz/react-draft-wysiwyg-input'`
+> 
 > `import '@tonz/react-draft-wysiwyg-input/style.css';`
+
+You can import css from `@tonz/react-draft-wysiwyg-input/style.css` or from `react-draft-wysiwyg/dist/react-draft-wysiwyg.css`
 
 # Use Case
 When you using `react-draft-wysiwyg` in your form, you cannot handle it as uncontrolled input.
@@ -19,7 +22,9 @@ Therefore, **we can using it as uncontrolled input**
 # Example with react-hook-form
 
 > `import {RichTextInput} from '@tonz/react-draft-wysiwyg-input'`
+> 
 > `import '@tonz/react-draft-wysiwyg-input/style.css';`
+> 
 > `<RichTextInput disabled={disabled} {...register('desc')} />`
 
 
@@ -103,9 +108,13 @@ export default function SignupForm() {
 # Some build-in validators with class-validator
 
 > import {
+> 
 >   RichTextIsNotEmpty,
+> 
 >   ContentHtmlMinLength,
+> 
 >   ContentHtmlMaxLength,
+> 
 > } from '@tonz/react-draft-wysiwyg-input/validators';
 
 ##### RichTextIsNotEmpty()
