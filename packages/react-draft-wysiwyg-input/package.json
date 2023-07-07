@@ -1,0 +1,25 @@
+{
+  "name": "@tonz/react-draft-wysiwyg-input",
+  "version": "1.0.3",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "license": "MIT",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    },
+    "./validators": {
+      "import": "./validators.mjs",
+      "require": "./validators.js"
+    },
+    "./utils": {
+      "import": "./utils.mjs",
+      "require": "./utils.js"
+    },
+    "./style.css": {
+      "import": "./style.css",
+      "require": "./style.css"
+    }
+  }
+}
