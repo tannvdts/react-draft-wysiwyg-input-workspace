@@ -1,9 +1,25 @@
 {
   "name": "@tonz/react-draft-wysiwyg-input",
   "version": "1.0.6",
+  "license": "MIT",
+  "description": "Port react-draft-wysiwyg to uncontrolled component, compatible with react-hook-form",
+  "author": "Tonz (Tan Nguyen Van)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tannvdts/react-draft-wysiwyg-input-workspace.git"
+  },
+  "tags": [
+    "react",
+    "reactjs",
+    "rich-text-input",
+    "rich-text",
+    "draft-js",
+    "react-draft-wysiwyg",
+    "decorators",
+    "typescript"
+  ],
   "main": "./index.js",
   "types": "./index.d.ts",
-  "license": "MIT",
   "exports": {
     ".": {
       "import": "./index.mjs",
